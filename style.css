@@ -1,0 +1,232 @@
+body{
+    background-color: #000000e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ten{
+    display: flex;
+    flex-direction: vertical;
+    flex-direction: column;
+    width: 593px;
+    height: 88px;
+    gap : 12px;
+    margin-left: 650px;
+    margin-bottom: 80px;
+}
+.trangCaNhan{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.722);
+    height: 1024px;
+    width: 1440px;
+}
+.nav{
+    width: 121px;
+    height: 1024px;
+    left: -43px;
+}
+.noiDung{
+    max-width: 1282px;
+}
+header{
+    max-width: 1282px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:600px;
+}
+.header-phai{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.timKiem img{
+    height: 24px;
+    width: 24px;
+    top: 14px;
+    left: 20px;
+    margin:auto 0;
+}
+.timKiem{
+    display: flex;
+    margin:auto;
+    background-color: white;
+    border-radius: 5px;
+    width: 354px;
+    height: 52px;
+}
+.timKiem1{
+    border:none;
+    outline: none;
+}
+.chuong img{
+    height: 24px;
+    width: 24px;
+    top: 14px;
+    left: 388px;
+    margin:auto 0;
+}
+.chuong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    height: 52px;
+    width: 52px;
+}
+.a img{
+    width: 1282px;
+    height: 100px;
+}
+section{
+    display: flex;
+    flow: vertical;
+    flex-direction: column;
+    gap: 10px;
+    width: 1282px;
+    height: 856px;
+    top:136px;
+    left:118px;
+    border-radius: 10px;
+    max-width: 1282px;
+    background-color:white;
+}
+.oLon{
+    display: flex;
+    flow: vertical;
+    flex-direction: column;
+    gap: 30px;
+    width: 1218px;
+    height: 653px;
+    top:268px;
+    left:150px;
+
+}
+.nguoiDung{
+    display: flex;
+    flow: horizontal;
+    flex-direction: row;
+    max-width: 1218px;
+    width: 1218px;
+    height: 100px;
+    justify-content: space-between;
+    margin: 10px 20px ;
+    gap: 600px;
+}
+.thongTinNguoiDung img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+.thongTinNguoiDung{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.nguoiDung button{
+    height: 44px;
+    width: 93px;
+    top: 28px;
+    left: 1125px;
+    border-radius: 10px;
+    background-color: #4182F9;
+    align-items: center;
+    justify-content: center;
+}
+.oThongTin{
+    display: flex;
+    flex-direction: column;
+    flow:grid;
+    width: 1218px;
+    height: 314px;
+    grid-row:3;
+    grid-column: 2;
+    row-gap: 25px;
+    column-gap: 32px;
+    max-width: 1218px;
+}
+.Ten{
+    display: flex;
+    flex-direction: row;
+    max-width: 1218px;
+    gap: 20px;
+    margin-left:50px;
+}
+.GC{
+    display: flex;
+    flex-direction: row;
+    max-width: 1218px;
+    gap: 38px;
+    margin-left:50px; 
+}
+.LT{
+    display: flex;
+    flex-direction: row;
+    max-width: 1218px;
+    gap: 20px;
+    margin-left:50px;
+}
+.Name{
+    flow:horizontal;
+    width: 523px;
+    height: 42px;
+    border-radius: 8px;
+    justify-content: space-between;
+    gap: 12px;
+    background-color: #F9F9F9;
+    border:none;
+    padding-top: 14px;
+    padding-right: 20px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+}
+.optionName{
+    flow:horizontal;
+    width: 558px;
+    height: 72px;
+    border-radius: 8px;
+    justify-content: space-between;
+    gap: 12px;
+    background-color: #F9F9F9;
+    border:none;
+    padding-top: 14px;
+    padding-right: 20px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+}
+.gender{
+    display: flex;
+    flex-direction: column;
+}
+.country{
+    display: flex;
+    flex-direction: column;
+}
+option{
+    width: 563px;
+    height: 42px;
+}
+.diaChi{
+    display:flex;
+    flex-direction: column;
+    width: 266px;
+    height: 177px;
+    gap: 18px;
+    margin-left: 50px;
+}
+.linkEmail{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    width: 266px;
+    height: 54px;
+    flow:horizontal;
+    justify-content: center;
+    align-items: center;
+}
