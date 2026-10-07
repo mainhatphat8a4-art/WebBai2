@@ -151,6 +151,9 @@ section{
     column-gap: 32px;
     max-width: 1218px;
 }
+.oThongTin label{
+    margin-bottom: 10px !important;
+}
 .Ten{
     display: flex;
     flex-direction: row;
@@ -169,7 +172,7 @@ section{
     display: flex;
     flex-direction: row;
     max-width: 1218px;
-    gap: 20px;
+    gap: 35px;
     margin-left:50px;
 }
 .Name{
@@ -185,6 +188,7 @@ section{
     padding-right: 20px;
     padding-bottom: 14px;
     padding-left: 20px;
+    margin-top: 10px;
 }
 input::placeholder{
     color:#88888888;
@@ -211,6 +215,16 @@ input::placeholder{
 .country{
     display: flex;
     flex-direction: column;
+}
+.language{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.timeZone{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
 }
 option{
     width: 563px;
