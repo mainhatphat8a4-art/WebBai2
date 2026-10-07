@@ -155,14 +155,14 @@ section{
     display: flex;
     flex-direction: row;
     max-width: 1218px;
-    gap: 20px;
+    gap: 37px;
     margin-left:50px;
 }
 .GC{
     display: flex;
     flex-direction: row;
     max-width: 1218px;
-    gap: 38px;
+    gap: 35px;
     margin-left:50px; 
 }
 .LT{
@@ -174,11 +174,11 @@ section{
 }
 .Name{
     flow:horizontal;
-    width: 523px;
+    width: 513px;
     height: 42px;
     border-radius: 8px;
     justify-content: space-between;
-    gap: 12px;
+    gap: 15px;
     background-color: #F9F9F9;
     border:none;
     padding-top: 14px;
@@ -186,19 +186,23 @@ section{
     padding-bottom: 14px;
     padding-left: 20px;
 }
+input::placeholder{
+    color:#88888888;
+}
 .optionName{
     flow:horizontal;
     width: 558px;
     height: 72px;
     border-radius: 8px;
     justify-content: space-between;
-    gap: 12px;
+    gap: 15px;
     background-color: #F9F9F9;
     border:none;
     padding-top: 14px;
     padding-right: 20px;
     padding-bottom: 14px;
     padding-left: 20px;
+    color:#88888888;
 }
 .gender{
     display: flex;
@@ -229,4 +233,7 @@ option{
     flow:horizontal;
     justify-content: center;
     align-items: center;
+}
+.fullName{
+    gap : 12px;
 }
