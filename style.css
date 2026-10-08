@@ -1,19 +1,10 @@
 body{
-    background-color: #000000e0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-.ten{
-    display: flex;
-    flex-direction: vertical;
-    flex-direction: column;
-    width: 593px;
-    height: 88px;
-    gap : 12px;
-    margin-left: 650px;
-    margin-bottom: 80px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 250; 
 }
 .trangCaNhan{
     display: flex;
@@ -36,7 +27,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap:600px;
+    gap: 580px;
 }
 .header-phai{
     display: flex;
@@ -44,11 +35,12 @@ header{
     gap: 20px;
 }
 .timKiem img{
-    height: 24px;
-    width: 24px;
+    height: 20px;
+    width: 20px;
     top: 14px;
     left: 20px;
     margin:auto 0;
+    margin-left: 10px;
 }
 .timKiem{
     display: flex;
@@ -57,6 +49,7 @@ header{
     border-radius: 5px;
     width: 354px;
     height: 52px;
+    gap:8px;
 }
 .timKiem1{
     border:none;
@@ -153,6 +146,7 @@ section{
 }
 .oThongTin label{
     margin-bottom: 10px !important;
+    font-weight: 400;
 }
 .Ten{
     display: flex;
@@ -237,6 +231,7 @@ option{
     height: 177px;
     gap: 18px;
     margin-left: 50px;
+    margin-top: 20px;
 }
 .linkEmail{
     display: flex;
