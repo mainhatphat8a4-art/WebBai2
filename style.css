@@ -16,7 +16,7 @@ body{
     margin-left: 0px;
 }
 .nav{
-    width: 121px;
+    width: 100px;
     height: 325px;
     margin-top: 159px;
     left: -43px;
@@ -29,7 +29,7 @@ body{
 .anh{
     display: flex;
     background:linear-gradient(to left,#bdcff0 0%,rgba(65,130,249,0.0052) 100%);
-    width: 121px;
+    width: 100px;
     height: 58px;
     align-items: center;
     justify-content: center;
@@ -39,7 +39,7 @@ body{
 }
 .noiDung{
     max-width: 1282px;
-    margin-left: 60px;
+    margin-left: 70px;
     margin-right: 40px;
 }
 header{
