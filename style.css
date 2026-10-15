@@ -16,7 +16,7 @@ body{
     margin-left: 0px;
 }
 .nav{
-    width: 100px;
+    width: 78px;
     height: 325px;
     margin-top: 159px;
     left: -43px;
@@ -29,7 +29,7 @@ body{
 .anh{
     display: flex;
     background:linear-gradient(to left,#bdcff0 0%,rgba(65,130,249,0.0052) 100%);
-    width: 100px;
+    width: 78px;
     height: 58px;
     align-items: center;
     justify-content: center;
@@ -40,7 +40,7 @@ body{
 .noiDung{
     max-width: 1282px;
     margin-left: 70px;
-    margin-right: 40px;
+    margin-right: 70px;
 }
 header{
     max-width: 1282px;
@@ -132,6 +132,11 @@ section{
     left:150px;
 
 }
+.muoiTen{
+    width: 24px;
+    height: 24px;
+    padding-right: 20px;
+}
 .nguoiDung{
     display: flex;
     flex-direction: row;
@@ -152,7 +157,7 @@ section{
 .alexaEmail{
     font-weight: 400;
     font-size: 16px;
-    color:#88888888;
+    color:#88888842;
 }
 .thongTinNguoiDung img{
     width: 100px;
@@ -187,7 +192,7 @@ section{
     row-gap: 25px;
     column-gap: 32px;
     max-width: 1218px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 .Ten{
     display: flex;
@@ -220,15 +225,12 @@ section{
     gap: 10px;
     background-color: #F9F9F9;
     border:none;
-    padding-top: 14px;
-    padding-right: 20px;
-    padding-bottom: 14px;
-    padding-left: 20px;
+    padding-left:20px;
     margin-top: 10px;
-    color:#88888888;
+    color:#888888;
 }
 input::placeholder{
-    color:#88888888;
+    color:#888888;
 }
 .gender{
     display: flex;
@@ -259,7 +261,6 @@ option{
     height: 177px;
     gap: 18px;
     margin-left: 65px;
-    margin-top: 20px;
 }
 .myEmail{
     font-weight: 900;
@@ -273,7 +274,7 @@ option{
 .thang{
     font-weight: 400;
     font-size: 16px;
-    color:#88888888; 
+    color:#888888; 
 }
 .linkEmail{
     display: flex;
