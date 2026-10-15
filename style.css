@@ -127,7 +127,7 @@ section{
 .oLon{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     width: 1218px;
     height: 653px;
     top:268px;
@@ -159,7 +159,7 @@ section{
 .alexaEmail{
     font-weight: 400;
     font-size: 16px;
-    color:#88888842;
+    color:#888888;
 }
 .thongTinNguoiDung img{
     width: 100px;
@@ -194,32 +194,31 @@ section{
     row-gap: 25px;
     column-gap: 32px;
     max-width: 1218px;
-    margin-bottom: 10px;
 }
 .Ten{
     display: flex;
     flex-direction: row;
     max-width: 1218px;
-    gap: 30px;
+    gap: 32px;
     margin-left:65px;
 }
 .GC{
     display: flex;
     flex-direction: row;
     max-width: 1218px;
-    gap: 30px;
+    gap: 32px;
     margin-left:65px; 
 }
 .LT{
     display: flex;
     flex-direction: row;
     max-width: 1218px;
-    gap: 30px;
+    gap: 32px;
     margin-left:65px;
 }
 .Name{
     display: flex;
-    width: 533px;
+    width: 553px;
     height: 52px;
     border-radius: 8px;
     justify-content: space-between;
