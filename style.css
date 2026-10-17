@@ -4,6 +4,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: #F9F9F9;
+    font-family: 'Poppins', sans-serif;;
 }
 .trangCaNhan{
     display: flex;
@@ -41,11 +42,11 @@ body{
 }
 .noiDung{
     max-width: 1282px;
-    margin-left: 60px;
-    margin-right: 70px;
+    margin-left: auto;
+    margin-right: auto;
 }
 header{
-    max-width: 1282px;
+    max-width: 1285px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -58,9 +59,8 @@ header{
     gap: 20px;
 }
 .welcome{
-    font-weight: 900;
-    font-size: 24px;
-    font-style: medium;
+    font-weight: 700;
+    font-size: 21px;
     margin-bottom: 10px;
 }
 .ngay{
@@ -150,7 +150,7 @@ section{
     gap: 600px;
 }
 .alexa{
-    font-weight: 900;
+    font-weight: 700;
     font-style: medium;
     font-size: 20px;
     margin-bottom: 10px;
@@ -264,7 +264,7 @@ option{
     margin-left: 65px;
 }
 .myEmail{
-    font-weight: 900;
+    font-weight: 700;
     font-size: 18px;
 }
 .alexaEmail1{
