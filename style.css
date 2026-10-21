@@ -116,7 +116,6 @@ header{
 section{
     display: flex;
     flex-direction: column;
-    gap: 10px;
     width: 100%;
     height: 856px;
     top:136px;
@@ -128,7 +127,9 @@ section{
     display: flex;
     flex-direction: column;
     height: 653px;
-    padding: 32px 40px;
+    padding: 0 32px;
+    padding-bottom: 71px;
+    padding-top: 32px ;
 }
 .muoiTen{
     width: 24px;
