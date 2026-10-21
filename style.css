@@ -51,7 +51,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 10px;
+    margin: 32px 40px;
 }
 .header-phai{
     display: flex;
@@ -122,6 +122,7 @@ section{
     left:118px;
     border-radius: 10px;
     background-color:white;
+    margin:40px 32px;
 }
 .oLon{
     display: flex;
@@ -130,6 +131,7 @@ section{
     padding: 0 32px;
     padding-bottom: 71px;
     padding-top: 32px ;
+    gap:30px;
 }
 .muoiTen{
     width: 24px;
